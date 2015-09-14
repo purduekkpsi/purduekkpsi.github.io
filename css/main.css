@@ -1,0 +1,15 @@
+#navcontainer ul {
+  font-family: Arial;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navcontainer ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+body {
+  background-color: #7CACFF;
+}
