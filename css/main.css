@@ -5,7 +5,7 @@
   padding: 0;
 }
 
-#navcontainer .navlink {
+#navcontainer ul li {
   display: inline;
   text-decoration: none;
 }
