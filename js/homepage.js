@@ -1,5 +1,5 @@
 $(document).ready(function {
   $(".navlink").mouseenter(function() {
-    $(this).css("background-color","yellow");
+    $('this').css("background-color","yellow");
   });
 });
