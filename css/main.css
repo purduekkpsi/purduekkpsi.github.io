@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+#crest {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 nav ul {
   font-family: Arial;
   list-style-type: none;
