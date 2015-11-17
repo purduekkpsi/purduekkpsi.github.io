@@ -1,11 +1,15 @@
-#navcontainer ul {
+.center {
+  text-align: center;
+}
+
+nav ul {
   font-family: Arial;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#navcontainer ul li {
+nav ul li {
   display: inline;
   text-decoration: none;
 }
