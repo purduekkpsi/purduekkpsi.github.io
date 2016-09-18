@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Calendar</title>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-  </head>
-  <body>
-    <h1 class="center">Purdue Kappa Kappa Psi</h1>
-    <h3 class="center">Gamma Pi Chapter</h3>
-    <h2 class="center">Calendar</h2>
-    <nav>
-      <ul class="center">
-        <li><a href="/">Home</a></li>
-        <li><a href="/about.html">About</a></li>
-        <li>Calendar</li>
-      </ul>
-    </nav>
-    <div>
-      <iframe src="https://www.google.com/calendar/embed?src=purduekky%40gmail.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe></iframe>
-    </div>
-  </body>
+    <head>
+        <title>Purdue Kappa Kappa Psi</title>
+        <link href="css/main.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    </head>
+    <body style="background-color: whitesmoke">
+        <div class="top">
+            <div class="navbar">
+                <ul class="nav">
+                    <li id="nav-title">
+                        <h2>Purdue Kappa Kappa Psi</h2>
+                    </li>
+                    <li class="nav-element" id="navbar-bar"></li>
+                    <li class="nav-element">
+                        <h2><a href="index.html" class="navlink">Home</a></h2>
+                    </li>
+                    <li class="nav-element">
+                        <h2><a href="about.html" class="navlink">About</a></h2>
+                    </li>
+                    <li class="nav-element">
+                        <h2><a href="history.html" class="navlink">Our History</a></h2>
+                    </li>
+                    <li class="nav-element">
+                        <h2><a href="brothers.html" class="navlink">The Brothers</a></h2>
+                    </li>
+                    <li class="nav-element">
+                        <h2><a href="calendar.html" class="navlink">Calendar</a></h2>
+                    </li>
+                </ul>
+            </div>
+            <div class="calendar" id="horizontal">
+                <iframe src="https://www.google.com/calendar/embed?src=purduekky%40gmail.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </body>
 </html>
