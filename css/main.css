@@ -187,3 +187,35 @@ time, mark, audio, video {
     text-align: center;
     margin-top: 100px;
 }
+
+.profile {
+    width: 100%;
+    height: 200px:
+    background-color: red;
+    display: inline-block;
+}
+
+.profile img {
+    width: 10%;
+    height 10%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.subprofile {
+    display: inline-block;
+}
+
+.profile h2 {
+    
+}
+
+.profile p {
+    text-align: center;
+    width: 50%;
+}
+
+#brotherspic {
+    border-radius: 5%;
+    box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
+}
