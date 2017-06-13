@@ -1274,7 +1274,6 @@
 	article {
 		margin-bottom: 3em;
 	}
-
 	section > :last-child,
 	article > :last-child,
 	section:last-child,
@@ -1294,7 +1293,9 @@
 		header.style1 p {
 			color: #b1b4b9;
 		}
-
+	iframe {
+		margin: 0em 0 0em 0;
+	}
 /* Image */
 
 	.image {
