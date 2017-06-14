@@ -1600,6 +1600,16 @@
 			.wrapper.style3 .image {
 				border: solid 10px #2B2F3D;
 			}
+	.wrapper.style4 {
+			background: #ADBBC9;
+			background: #ADBBC9;
+		}
+
+			.wrapper.style4 .title {
+				background: #ADBBC9;
+				color: #fff;
+			}
+
 
 	#header-wrapper {
 		background: url("../../images/bannerfinal.jpg") center center;
