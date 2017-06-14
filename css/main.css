@@ -2051,8 +2051,8 @@
 
 						#nav > ul > li > a, #nav > ul > li > span {
 							display: block;
-							color: #eee;
-							color: rgba(255, 255, 255, 0.75);
+							color: #fff;
+							color: rgba(255, 255, 255, 5);
 							text-transform: uppercase;
 							text-decoration: none;
 							font-size: 0.7em;
