@@ -55,10 +55,10 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-/* Calendar Ifram Class */
+/* Calendar Iframe Class */
 
 .responsiveCal {
-	position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+	position: relative; padding-bottom: 70%; height: 0; overflow: hidden;
 }
 
 .responsiveCal iframe {
