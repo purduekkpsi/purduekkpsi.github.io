@@ -2656,7 +2656,7 @@
 		/* Nav */
 
 		#nav {
-			position: absolute;
+			position: inherit;
 			display: contents;
 			top: 2.5em;
 			left: 0;
