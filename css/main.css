@@ -2656,7 +2656,7 @@
 		/* Nav */
 
 			#nav {
-				display: none;
+				display: inline-block;
 			}
 
 		/* Intro */
