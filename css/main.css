@@ -2656,7 +2656,7 @@
 		/* Nav */
 
 			#nav {
-				display: inline-block;
+				display: inherit;
 			}
 
 		/* Intro */
