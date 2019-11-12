@@ -2623,7 +2623,7 @@
 					}
 
 			#header-wrapper {
-				padding: 6em 2em 6em 2em;
+				/* padding: 6em 2em 6em 2em; */
 			}
 
 			#footer-wrapper {
@@ -2657,7 +2657,7 @@
 
 		#nav {
 			position: absolute;
-			display: block;
+			display: contents;
 			top: 2.5em;
 			left: 0;
 			width: 100%;
@@ -2672,7 +2672,7 @@
 			}
 
 				#nav > ul > li {
-					display: inline-block;
+					display: inherit;
 					text-align: center;
 					padding: 0 1.5em 0 1.5em;
 				}
