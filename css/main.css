@@ -58,7 +58,7 @@
 /* Calendar Iframe Class */
 
 .responsiveCal {
-	position: relative; padding-bottom: 56.25%; padding-top: 30px; overflow: hidden;
+	position: relative; padding-bottom: 56.25%; padding-top: 30px;
 }
 
 .responsiveCal iframe {
@@ -1304,6 +1304,9 @@
 		}
 	iframe {
 		margin: -2em 0 2em 0;
+		width: 10px !important;
+		min-width: 100%;
+		width: 100%;
 	}
 /* Image */
 
