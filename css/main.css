@@ -1497,6 +1497,15 @@
 			padding-left: 0.25em;
 		}
 
+	.linklist {
+		text-align: center;
+		position: relative;
+		/*padding-top: 1.25em;
+		padding-bottom: 1.25em;
+		margin-bottom: 1.25em;
+		margin-top: 1.25em; */
+	}
+
 /* Feature List */
 
 	.feature-list h3 {
@@ -1972,7 +1981,7 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 6em 0 9em 0;
+				padding: 6em 0 6em 0;
 			}
 
 				.wrapper .title {
@@ -2252,7 +2261,7 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 4em 0 7em 0;
+				padding: 4em 0 4em 0;
 			}
 
 			#intro-wrapper {
@@ -2602,7 +2611,7 @@
 		/* Wrappers */
 
 			.wrapper {
-				padding: 15px 15px 5em 15px;
+				padding: 15px 15px 15px 15px;
 			}
 
 				.wrapper .title {
