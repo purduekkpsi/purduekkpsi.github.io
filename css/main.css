@@ -1399,7 +1399,7 @@
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760; <!--body color-->
+				background-color: #d96760; /* body color */
 			}
 
 		input[type="button"].style2,
