@@ -1794,6 +1794,19 @@
 				color: #fff;
 			}
 
+/* Family Tree */
+
+	.famtree {
+		padding-left: 1rem;
+		padding-right: 1rem;
+		height: 1000px;
+		display: flex;
+	}
+
+	.famtree iframe {
+		flex-grow: 1;
+	}
+
 /* Desktop + Tablet */
 
 	@media screen and (min-width: 737px) {
@@ -2631,9 +2644,9 @@
 						background-size: 100% 100%;
 					}
 
-			#header-wrapper {
-				/* padding: 6em 2em 6em 2em; */
-			}
+			/* #header-wrapper {
+				/* padding: 6em 2em 6em 2em;
+			} */
 
 			#footer-wrapper {
 				padding-top: 3em;
@@ -2815,5 +2828,5 @@
 						#copyright ul li:first-child {
 							margin-top: 0;
 						}
-	.ok {color: #ff560}
+	/* .ok {color: #ff560} */
 	}
