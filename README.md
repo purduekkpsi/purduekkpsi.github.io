@@ -1,2 +1,2 @@
-# purduekkpsi.github.io
-Purdue Kappa Kappa Psi Website
+# KKY-Website
+KKY Website
