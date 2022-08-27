@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+        <div id="nav"></div>
+
+        <div id="content">
+            <div id="picture-header"></div>
+
+            <div class="title-container">
+                <div class="w3-center title">
+                    <h1 class="blue">Gamma Pi Life and Honorary Members</h1>
+                </div>
+            </div>
+
+            <div class="w3-container w3-padding-32" style="background-color: #DFDFDF;  border-top: 2px solid #09268a; border-bottom: 2px solid #09268a;">
+                <h2 id="life-and-honorary-header" class="blue">These brothers have graciously supported our chapter through lifetime membership</h2>
+                <div id="life-and-honorary" class="w3-container w3-margin-top w3-margin-bottom"></div>
+                <h2 class="blue" style="text-align: center;">Thank You</h2>
+            </div>
+        </div>
+
+        <div id="footer"></div>
+    </body>
+
+    <script src="static/script.js"></script>
+
+    <script type="text/javascript">
+        fetch('static/life_and_honorary.json', { 
+			  method: 'GET'
+			})
+			.then(response => response.json())
+			.then(json => getMembers(json));
+
+		function getMembers(json) {
+            for (let i = 0; i < json.members.length; i++) {
+                var element = document.createElement("span");
+                var node = document.createTextNode(json.members[i]);
+                element.appendChild(node);
+                if (i == json.members.length-1 && i%3 == 0){
+                    element.style.marginLeft = "35.5%";
+                    i++;
+                }
+                element.classList.add("life-and-honorary-col-" + (i%3 + 1));
+                document.getElementById("life-and-honorary").appendChild(element);
+            }     
+        }
+    </script>
+
+</html>

@@ -1,314 +1,130 @@
-<!DOCTYPE HTML>
-<!--
-	Escape Velocity by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Purdue Kappa Kappa Psi</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
-		<style>
-			.oldgold {
-				color: #C29E00;
-		}
-		</style>
-		<style>
-			.bigger {
-				font-size:114%;
-		}
-		</style>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
 
-		<style>
-			.darkblue {
-				color: #255ca8;
-		}
-		</style>
-		<style>
-			.darkgrey {
-				color: #484d55;
-		}
-		</style>
-			<style>
-				.mainblue {
-					color: #4481D6;
-			}
-			</style>
-				<style>
-				.black {
-					color: #000000;
-			}
-			</style>
-		<head>
- 		<link rel="icon" type="image/vnd.microsoft.icon"
-    			 href="favicon.ico" />
-		<link rel="icon" type="image/png"
-    			 href="http://purduekkpsi.com/image.png" />
-		<link rel="apple-touch-icon"
-     			href="http://purduekkpsi.com//apple-touch-icon.png">
-		<link rel="shortcut icon"
-     			href="favicon.ico" />
-		</head>
-	</head>
-	<body class="index">
-		<div id="page-wrapper">
+    <body>
+        <div id="nav"></div>
 
-			<!-- Header -->
-				<div id="header-wrapper" class="wrapper">
-					<div id="header">
+        <div id="content">
+            <div id="showcase">
+                <img id="slides">
+                <div id="showcase-text-bg"></div>
+                <div id="showcase-text">KAPPA KAPPA PSI<br><span style="font-size: 2vw">PURDUE UNIVERSITY &#9679 GAMMA PI</span></div>
+            </div>
+            
+            <!-- About Section -->
+            <div class="w3-container w3-padding-32" id="about">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 blue">About</h3>
+                <p>Kappa Kappa Psi is a fraternal organization that promotes the advancement of college and university bands through 
+                    dedicated service and support to the bands; comprehensive education; leadership opportunities; and recognition; 
+                    for the benefit of its members and society
+                </p>
+            </div>
+            
+            <!---Chapter Values-->
+            <div class="w3-container w3-padding-32" id="values" style="background-color: #DFDFDF;  border-top: 2px solid #09268a; border-bottom: 2px solid #09268a;">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 blue">Gamma Pi Value Statement</h3>
+                <h5>The Brothers at Purdue take the mission of Kappa Kappa Psi even further with specific chapter goals</h5>
+            
+                <div style="display: flex; flex-wrap: wrap">
+                    <div class="w3-col l4 m6 value">
+                        <div class="value-section">
+                            <img src="static/images/who.jpg" class="border-img value-img">
+                            <h3 class="blue"><i class="fa-solid fa-people-group"></i>&ensp; Community</h3>
+                            <p style="width:95%">Just as Purdue Bands and Orchestras creates a family on campus, Gamma Pi fosters a sense of community and forms a 
+                                support network among brothers in our own chapter and other chapters. </p>
+                        </div>
+                    </div>
+                
+                    <div class="w3-col l4 m6 value">
+                        <div class="value-section">
+                            <img src="static/images/juice.jpg" class="border-img value-img">
+                            <h3 class="blue"><i class="fa-solid fa-puzzle-piece"></i>&ensp; Growth</h3>
+                            <p style="width:95%">Gamma Pi provides opportunities for individuals to grow as leaders, musicians, and brothers and in doing so helps 
+                                our chapter maximize achievement and continuously strive for the highest.</p>
+                        </div>
+                    </div>
+                
+                    <div class="w3-col l4 m6 value">
+                        <div class="value-section">
+                            <img src="static/images/march.jpg" class="border-img value-img">
+                            <h3 class="blue"><i class="fa-solid fa-square-check"></i>&ensp; Initiative</h3>
+                            <p style="width:95%">Gamma Pi takes initiative by searching and finding ways to improve both chapter and the university bands and by 
+                                routinely being prepared and anticipating others' needs.</p>
+                        </div>
+                    </div>
+                
+                    <div class="w3-col l4 m6 value">
+                        <div class="value-section">
+                            <img src="static/images/Ethan Rowe.jpg" class="border-img value-img">
+                            <h3 class="blue"><i class="fa-solid fa-music"></i>&ensp; Passion</h3>
+                            <p style="width:95%">Brothers of Gamma Pi strive to balance our passions for our professional disciplines with those for music, 
+                                propel the chapter toward greater accomplishments,and instill the same attitudes within our community.</p>
+                        </div>
+                    </div>
+                
+                    <div class="w3-col l4 m6 value">
+                        <div class="value-section">
+                            <img src="static/images/Jocie Strock.jpg" class="border-img value-img">
+                            <h3 class="blue"><i class="fa-solid fa-heart"></i>&ensp; Integrity</h3>
+                            <p style="width:95%">By closely following the purposes and ideals of Kappa Kappa Psi, Gamma Pi demonstrates integrity by serving 
+                                as role models who display consistent, honorable character.</p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
 
-						<!-- Logo -->
-							<div id="logo">
-								<h1><a href="index.html">Kappa Kappa Psi</a></h1>
-								<p><span class="bigger">Purdue University ● Gamma Pi</span></p>
-							</div>
+            <div class="w3-container w3-padding-32" id="values" style="background-color: #DFDFDF; border-bottom: 2px solid #09268a;">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 blue">Get the Updates</h3>
 
-						<!-- Nav -->
-							<nav id="nav">
-								<ul>
-									<li class="current"><a href="index.html">Home</a></li>
-									<li><a href="history.html">History</a></li>
-									<li><a href="family-tree.html">Family Trees</a></li>
-									<li><a href="chapter-leadership.html">Chapter Leadership</a></li>
-									<li><a href="life&honorary.html">Life & Honorary Members</a></li>
-									<li><a href="calendar.html">Calendar</a></li>
-								</ul>
-							</nav>
+                <div class="w3-third">
+                    <div class="updates-section w3-center">
+                        <img src="static/images/Ethan Rowe.jpg" class="border-img updates-img">
+                        <h3 class="blue">Gamma Pi Alumni Association</h3>
+                        <p style="width:95%">Gamma Pi is proud to be one of 20 chapters of the fraternity to have an alumni association. Here, alumni can keep up with 
+                            the latest service projects, learn about the new incoming class of brothers, and support Gamma Pi through donations.</p>
+                    </div>
+                </div>
 
-					</div>
-				</div>
+                <div class="w3-third">
+                    <div class="updates-section w3-center">
+                        <img src="static/images/Ethan Rowe.jpg" class="border-img updates-img">
+                        <h3 class="blue">The Arpeggio</h3>
+                        <p style="width:95%">Learn about what is going on with other chapters in the North Central District through The Arpeggio. Here you can learn 
+                            about outstanding service projects, new member education, and ideas for benefit of all chapters. Check it out!</p>
+                    </div>
+                </div>
 
-			<!-- Intro -->
-				<div id="intro-wrapper" class="wrapper style1">
-					<div class="title">About Us</div>
-					<section id="intro" class="container">
-						<p class="style1"><em><strong>Kappa Kappa Psi is a fraternal organization that promotes the
-						advancement of college and university bands through dedicated service and
-						support to the bands; comprehensive education; leadership opportunities;
-						and recognition; for the benefit of its members and society</em></strong></p>
+                <div class="w3-third">
+                    <div class="updates-section w3-center">
+                        <img src="static/images/Ethan Rowe.jpg" class="border-img updates-img">
+                        <h3 class="blue">Keeping up with Gammp Pi</h3>
+                        <p style="width:95%">Want to know more about what the Brothers at Purdue are doing? Read the updates our Alumni Secretary publishes every 
+                            month to hear about the Brother of the Week, ongoing service projects, and the new class of Brothers!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-					<!-- Image -->
-							<a class="image featured">
-								<img src="images/DuneBros.jpg" alt="" />
-							</a>
+        <div id="footer"></div>
+    </body>
 
-					</section>
-				</div>
+    <script src="static/script.js"></script>
 
-			<!-- Main -->
-				<div class="wrapper style2">
-					<div class="title">How We Strive for the Highest</div>
-					<div id="main" class="container">
+    <script>
+                var images = ["static/images/who.jpg", "static/images/juice.jpg"];
+                var i = -1;
 
-						<!-- Image -->
-							<a class="image featured">
-								<img src="images/Dennys.jpg" alt="" />
-							</a>
+                rotate();
 
-						<!-- Features -->
-							<section id="features">
-								<header class="style1">
-									<h2><strong><span class="black bigger">Gamma Pi Values Statement</span></strong></h2>
-									<p><em><strong><span class="darkblue">The Brothers at Purdue take the mission of Kappa Kappa Psi even<br class="mobile-hide" />
-									further with specific chapter goals</span></strong></em></p>
-								</header>
-								<div class="feature-list">
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-users"><span class="darkblue">Community</span></h3>
-												<p><span class="black"><span class="bigger">Just as Purdue Bands and Orchestras creates a family on campus, Gamma Pi fosters a sense of community and forms a support network among brothers in our own chapter and other chapters</span></span></p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-puzzle-piece"><span class="darkblue">Growth</span></h3>
-												<p><span class="black bigger">Gamma Pi provides opportunities for individuals to grow as leaders, musicians, and brothers and in doing so helps our chapter maximize achievement and continuously strive for the highest</span></p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-hand-spock-o"><span class="darkblue">Initiative</span></h3>
-												<p><span class="black bigger">Gamma Pi takes initiative by searching and finding ways to improve both chapter and the university bands and by routinely being prepared and anticipating others’ needs</span></p>
-											</section>
-										</div>
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-music"><span class="darkblue">Passion</span></h3>
-												<p><span class="black bigger">Brothers of Gamma Pi strive to balance our passions for our professional disciplines with those for music, propel the chapter toward greater accomplishments,and instill the same attitudes within our community</span></p>
-											</section>
-										</div>
-									</div>
-									<div class="row">
-										<div class="6u 12u(mobile)">
-											<section>
-												<h3 class="icon fa-heart"><span class="darkblue">Integrity</span></h3>
-												<p><span class="black bigger">By closely following the purposes and ideals of Kappa Kappa Psi, Gamma Pi demonstrates integrity by serving as role models who display consistent, honorable character</span></p>
-											</section>
-										</div>
-									</div>
-								</div>
-							</section>
-						<!-- Image -->
-							<a class="image featured">
-								<img src="images/FamilyTime.jpg" alt="" />
-							</a>
+                function rotate() {
+                    i = (i+1)%images.length;
+                    document.getElementById("slides").src = images[i];
+                    setTimeout(rotate, 4000);
+                }
+        </script>
 
-					</div>
-				</div>
-
-
-			<!-- Highlights -->
-				<div class="wrapper style3">
-					<div class="title"><span class="darkgrey">Get the Updates</span></div>
-					<div id="highlights" class="container">
-						<div class="row 150%">
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="https://gammapialumni.org/" class="image featured"><img src="images/Gamma Pi 2019.jpg" alt="" /></a>
-									<h3><a href="https://gammapialumni.org/"><span class="darkblue">Gamma Pi Alumni Association</span></a></h3>
-									<p><span class="black bigger">Gamma Pi is proud to be one of 20 chapters of the fraternity to have an alumni association.
-									Here, alumni can keep up with the latest service projects, learn about the new incoming class
-									of brothers, and support Gamma Pi through donations.</span></p>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="https://kkytbsncd.org/arpeggio/" class="image featured"><img src="images/ISP Service.JPG" alt="" /></a>
-									<h3><a href="https://kkytbsncd.org/arpeggio/"><span class="darkblue">The Arpeggio</span></a></h3>
-									<p><span class="black bigger">Learn about what is going on with other chapters in the North Central
-									District through The Arpeggio. Here you can learn about outstanding service
-									projects, new member education, and ideas for benefit of all chapters. Check it out!</span></p>
-								</section>
-							</div>
-							<div class="4u 12u(mobile)">
-								<section class="highlight">
-									<a href="https://gammapialumni.org" class="image featured"><img src="images/ncd2017.jpg" alt="" /></a>
-									<h3><a href="https://gammapialumni.org"><span class="darkblue">Keeping up with Gamma Pi</span></a></h3>
-									<p><span class="black bigger">Want to know more about what the Brothers at Purdue are doing?
-									 Read the updates our Alumni Secretary publishes every month to hear
-									 about the Brother of the Week, ongoing service projects, and the new class
-									 of Brothers!</span></p>
-								</section>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			<!-- Footer -->
-				<div id="footer-wrapper" class="wrapper">
-					<div class="title">Contact Us</div>
-					<div id="footer" class="container">
-						<header class="style1">
-							<h2>Want to learn more about how to become a Brother? <br class="mobile-hide" />
-							Need to get in touch with our executive board?</strong><br class="mobile-hide" />
-							Send us an email!</h2>
-						</header>
-						<hr />
-						<div class="row 150%">
-							<div class="6u 12u(mobile)">
-
-								<!-- Contact Form -->
-									<section>
-										<form method="post" action="https://formspree.io/purduekky@gmail.com">
-											<div class="row 50%">
-												<div class="6u 12u(mobile)">
-													<input type="text" name="name" id="contact-name" placeholder="Name" />
-												</div>
-												<div class="6u 12u(mobile)">
-													<input type="text" name="_replyto" id="contact-email" placeholder="Email" />
-												</div>
-											</div>
-											<div class="row 50%">
-												<div class="12u">
-													<textarea name="message" id="contact-message" placeholder="Message" rows="4"></textarea>
-												</div>
-											</div>
-											<div class="row">
-												<div class="12u">
-													<ul class="actions">
-														<li><input type="submit" class="style1" value="Send" /></li>
-														<li><input type="reset" class="style2" value="Reset" /></li>
-													</ul>
-												</div>
-											</div>
-										</form>
-									</section>
-
-							</div>
-							<div class="6u 12u(mobile)">
-
-								<!-- Contact -->
-									<section class="feature-list small">
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-home">Mailing Address</h3>
-													<p>
-														Elliott Hall of Music<br />
-														712 3rd Street<br />
-														West Lafayette, IN 47907
-													</p>
-												</section>
-											</div>
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3 class="icon fa-envelope">Email</h3>
-													<p> President Jonathan Heidegger: <br class="mobile-hide" />
-														<a href="mailto:jheidegg@purdue.edu">jheidegg@purdue.edu</a><br class="mobile-hide" />
-														Secretary Maxwell Smith: <br class="mobile-hide" />
-														<a href="mailto:smit3507@purdue.edu">smit3507@purdue.edu</a>
-													</p>
-												</section>
-											</div>
-										</div>
-										<div class="row">
-											<div class="6u 12u(mobile)">
-												<section>
-													<h3><a href="https://www.facebook.com/KKYGammaPi"><i class="fa fa-facebook fa-3x" aria-hidden="true">&nbsp;&nbsp;</i></a>
-													<a href="https://www.instagram.com/kky_gammapi/?hl=en"><i class="fa fa-instagram fa-3x" aria-hidden="true">&nbsp;&nbsp;</i></a>
-													<a href="https://twitter.com/KKYGammaPi"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></h3><br />
-
-												</section>
-											</div>
-										</div>
-										</div>
-
-									</section>
-							</div>
-						</div>
-						<hr />
-						<div id="copyright">
-							<ul>
-								<li>&copy; Gamma Pi Webmaster</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- <div id="copyright">
-						<ul>
-							<li>&copy; Gamma Pi Webmaster</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</div> -->
-
-				</div>
-
-		</div>
-
-		<!-- Scripts -->
-
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Purdue Kappa Kappa Psi</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="static/stylesheet.css">
+        <link rel="icon" href="static/favicon.ico">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top navbar" id="nav-big">
+            <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+                <a href="index.html" class="w3-bar-item w3-button w3-mobile"><b style="color: #09268a">Purdue Kappa Kappa Psi</b></a>
+                <div class="w3-right w3-small">
+                    <a href="history.html" class="w3-bar-item w3-button w3-mobile">History</a>
+                    <a href="family_tree.html" class="w3-bar-item w3-button w3-mobile">Family Tree</a>
+                    <a href="chapter_leadership.html" class="w3-bar-item w3-button w3-mobile">Chapter Leadership</a>
+                    <a href="life_and_honorary.html" class="w3-bar-item w3-button w3-mobile">Life and Honorary Members</a>
+                    <a href="calendar.html" class="w3-bar-item w3-button w3-mobile">Calendar</a>
+                    <a href="alumni.html" class="w3-bar-item w3-button w3-mobile">Alumni</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="w3-top navbar" id="nav-small">
+            <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+                <a href="index.html" id="nav-title-small" class="w3-bar-item w3-button"><b style="color: #09268a;">Purdue Kappa Kappa Psi</b></a>
+                <div class="w3-right w3-small w3-dropdown-click">
+                    <img id="menu-img" src="static/images/menu.png" onclick="menu()" onload="resize()" class="w3-button w3-right" style="height: 40px">
+                    <div id="menu-dropdown" class="w3-dropdown-content w3-white" style="right:0; width:30%">
+                        <a href="history.html" class="w3-button" style="width:100%">History</a>
+                        <a href="family_tree.html" class="w3-button" style="width:100%">Family Tree</a>
+                        <a href="chapter_leadership.html" class="w3-button" style="width:100%">Chapter Leadership</a>
+                        <a href="life_and_honorary.html" class="w3-button" style="width:100%">Life and Honorary Members</a>
+                        <a href="calendar.html" class="w3-button" style="width:100%">Calendar</a>
+                        <a href="alumni.html" class="w3-button" style="width:100%">Alumni</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Picture Header -->
+        <div id="header" class="w3-center">
+            <a href="index.html">
+                <span>
+                <img src="static/images/psi_coa.png" class="coa">
+                <img src="static/images/KKY_big.png" class="kky-big">
+                </span>
+            </a>
+        </div>
+          
+        <!-- Contact Section -->
+        <div id="contact" class="w3-container w3-padding-32">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Lets get in touch!</p>
+            
+            <form id="contact-form" action="https://formspree.io/f/myyoqbgy" method="POST">
+                <input id="form-Name" class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input id="form-Email" class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <textarea id="form-message" name="message" class="w3-input w3-section w3-border" placeholder="Message" required name="Message"></textarea>
+                <button class="w3-button w3-black w3-section" onclick="document.forms['contact-form'].reset()">
+                    <i class="fa-solid fa-rotate-left"></i>&ensp; RESET
+                </button>
+                <button class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa-solid fa-paper-plane"></i>&ensp; SEND MESSAGE
+                </button>
+            </form>
+        </div>
+        <!-- End page content -->
+          
+          
+        <!-- Footer -->
+        <footer class="w3-container w3-center w3-black w3-padding-16">
+            <div class="w3-third w3-padding-left w3-padding-right">
+                <div class="footer-section">
+                    <h3><i class="fa-solid fa-house"></i>&ensp; Mailing Address</h3>
+                    <p>
+                        Elliott Hall of Music<br>
+                        712 3rd Street<br>
+                        West Lafayette, IN 47907
+                    </p>
+                </div>
+            </div>
+            <div class="w3-third w3-padding-left w3-padding-right">
+                <div class="footer-section">
+                    <h3><i class="fa-solid fa-envelope"></i>&ensp; Email</h3>
+                    <p id="president-footer"></p>
+                    <p id="secretary-footer"></p>
+                </div>
+            </div>
+            <div class="w3-third w3-padding-left w3-padding-right">
+                <div class="footer-section">
+                    <a href="https://www.facebook.com/KKYGammaPi" class="social-media">
+                        <i class="fa-brands fa-facebook-f fa-5x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/kky_gammapi/?hl=en" class="social-media">
+                        <i class="fa-brands fa-instagram fa-5x"></i>
+                    </a>
+                    <a href="https://twitter.com/KKYGammaPi" class="social-media">
+                        <i class="fa-brands fa-twitter fa-5x"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
