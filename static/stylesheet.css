@@ -233,6 +233,7 @@ article p {
     float: left;
     border-top: 5px solid #09268a;
     border-left: 5px solid #09268a;
+    border-right: 2px solid #09268a;
     border-bottom: 5px solid #09268a;
 }
 
@@ -240,6 +241,7 @@ article p {
     width: 35%;
     float: left;
     border-top: 5px solid #09268a;
+    border-left: 2px solid #09268a;
     border-right: 5px solid #09268a;
     border-bottom: 5px solid #09268a;
 }
