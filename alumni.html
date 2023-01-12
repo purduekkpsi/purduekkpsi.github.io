@@ -24,10 +24,16 @@
                 <button class="w3-button w3-section dart-button" onclick="archives()">
                     <i class="fa-solid fa-folder-open"></i>&ensp; Dart Archives
                 </button>
+
+                <button class="w3-button w3-section dart-button" onclick="arrow()">
+                    <i class="fa-solid fa-arrow-right"></i>&ensp; Arrow
+                </button>
                 
                     <iframe id="dart-current" class="dart w3-show" src="https://docs.google.com/document/d/e/2PACX-1vS_dHj9HAg5AFCE0nv4ZAhF23F97ezQPzWlmMtstTN8Pkcl8hKJCs7OdH4VqZ03d2gEBpo_3hFPZOT2/pub?embedded=true" frameborder="0"></iframe>
                     
                     <iframe id="dart-archives" class="dart w3-hide" src="https://docs.google.com/document/d/e/2PACX-1vRdLkUAK2e4LfZvksUSt5lLBPBRF7OuJJjg1JjBJDVWFRWYmfsJg0ljuRgOPicyM7cN_scM4NuAyLW2/pub?embedded=true" frameborder="0"></iframe>
+
+                    <iframe id="arrow" class="dart w3-hide" src="https://docs.google.com/document/d/e/2PACX-1vShbnRRhQ9iN_C5FcmPG5Yd9wqTOFiA0gUNMmGpVWgMiONL0Xe5Sye0WTSgmD3pnLsZtVZucwoPNA8B/pub?embedded=true" frameborder="0"></iframe>
             </div>
         </div>
 
@@ -42,6 +48,8 @@
             document.getElementById("dart-current").classList.remove("w3-hide");
             document.getElementById("dart-archives").classList.add("w3-hide");
             document.getElementById("dart-archives").classList.remove("w3-show");
+            document.getElementById("arrow").classList.add("w3-hide");
+            document.getElementById("arrow").classList.remove("w3-show");
         }
 
         function archives() {
@@ -49,6 +57,17 @@
             document.getElementById("dart-archives").classList.remove("w3-hide");
             document.getElementById("dart-current").classList.add("w3-hide");
             document.getElementById("dart-current").classList.remove("w3-show");
+            document.getElementById("arrow").classList.add("w3-hide");
+            document.getElementById("arrow").classList.remove("w3-show");
+        }
+
+        function arrow() {
+            document.getElementById("dart-archives").classList.add("w3-hide");
+            document.getElementById("dart-archives").classList.remove("w3-show");
+            document.getElementById("dart-current").classList.add("w3-hide");
+            document.getElementById("dart-current").classList.remove("w3-show");
+            document.getElementById("arrow").classList.add("w3-show");
+            document.getElementById("arrow").classList.remove("w3-hide");
         }
     </script>
 
