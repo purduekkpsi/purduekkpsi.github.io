@@ -25,7 +25,7 @@
             "position": "Secretary",
             "name": "Geoffrey Ladue",
             "email": "gladue@purdue.edu",
-            "description": "Maintains the systems necessary to help the chapter run smoothly. Keeps the google drive organized, creates and maintains agendas for chapter and exec meetings, updates the chapter calendar with KKY events, assists with the tracking of active requirements and chapter attendance, and coordinates the chapter slack."
+            "description": "Maintains the systems necessary to help the chapter run smoothly. Keeps the google drive organized, creates and maintains agendas for chapter and exec meetings, updates the chapter calendar with KKY events, assists with the tracking of active requirements and chapter attendance, and coordinates the chapter Discord server."
         },
         {
             "position": "Historian",
@@ -35,7 +35,7 @@
         },
         {
             "position": "Alumni-Secretary",
-            "name": "Erin Dorsey",
+            "name": "Faith Allison",
             "description": "Corresponds with alumni through periodic publications, maintains accurate records of alumni members, and assists graduating Brothers on their road to Alumni status."
 
         }
@@ -44,7 +44,7 @@
     "chairs": [
         {
             "position": "Service",
-            "name": ["Jordan Domasky", "Drew Kertesz"],
+            "name": ["Drew Kertesz", "Logan Hamilton"],
             "description": "Correspond with alumni through periodic publications, maintain accurate records of alumni members, and assist graduating Brothers on their road to Alumni status."
         },
         {
@@ -59,7 +59,7 @@
         },
         {
             "position": "Traditions",
-            "name": ["Gianna Marzen", "Hannah Stegall"],
+            "name": ["Gianna Marzen", "Jared Nathan"],
             "description": "Maintains ritual equipment and keeps detailed inventory, sands and paints the senior boards for any graduating seniors, and organizes the bandinage."
         },
         {
@@ -69,17 +69,17 @@
         },
         {
             "position": "Fundraising",
-            "name": ["Franklin Johnson", "Ally Timko"],
+            "name": ["Franklin Johnson"],
             "description": "Plans and advises chapter on all fundraising events, organizes the selling of all merchandise and fundraising items, investigates new merchandise, fundraising projects and other ideas as needed, and offers new ideas and events for consideration."
         },
         {
             "position": "Publicity",
-            "name": ["Samantha Holesha", "Valerie Minnick"],
+            "name": ["Valerie Minnick"],
             "description": "Responsible for communicating with the public and university with what is going on in our fraternity and department and responsible for advertising recruitment materials."
         },
         {
             "position": "Technology",
-            "name": ["Chad Matulenko", "Luke Wagner"],
+            "name": ["Chad Matulenko"],
             "description": "Responsible for all things computer related with respect to the chapter, including the chapter website and additional computerized record keeping for the chapter."
         }
     ]
