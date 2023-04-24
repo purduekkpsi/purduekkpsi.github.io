@@ -29,7 +29,7 @@ document.onclick = function(event) {
     }
 }
 
-fetch('static/leadership.json', { 
+fetch('static/leadership.json', {
     method: 'GET'
   })
   .then(response => response.json())
