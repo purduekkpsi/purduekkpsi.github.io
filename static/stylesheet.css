@@ -335,6 +335,29 @@ article p {
     text-decoration: none;
 }
 
+.gallery-img {
+    max-width: 200px;
+    max-height: 150px;
+    padding: 5px;
+}
+
+.title-gallery {
+    width: 100%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.gallery-a{
+    text-decoration: none;
+}
+.gallery-line{
+    width: 100%;
+    border: 1px solid #09268a;
+    clear: both;
+    align-self: center;
+}
+
 /*
 body{
     margin-top:80px;

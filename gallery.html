@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+
+    <body>
+
+        <div id="nav"></div>
+
+        <div id="content">
+          <div id="picture-header"></div>
+
+          <div class="title-container">
+            <div class="w3-center title">
+              <h1 class="blue">Gamma Pi Photo Gallery</h1>
+            </div>
+          </div>
+
+          <div class="w3-container w3-padding32" style="background-color: #DFDFDF;  border-top: 2px solid #09268a; border-bottom: 2px solid #09268a;">
+            <!--
+            <div class="w3-center">
+              <h2 class="blue" style="font-weight: bold; align-content: center;">2022-2023</h2>
+            </div>
+            <div class="w3-left title-gallery">
+              <h2 class="blue">Trivia Night</h2>
+            </div>
+            <div class="w3-left">
+              <a href="static/images/gallery/trivia1.jpg" target="_blank" class="gallery-a">
+                <img src="static/images/gallery/trivia1.jpg" class="gallery-img">
+              </a>
+              <a href="static/images/gallery/trivia2.jpg" target="_blank" class="gallery-a">
+                <img src="static/images/gallery/trivia2.jpg" class="gallery-img">
+              </a>
+              <a href="static/images/gallery/trivia3.jpg" target="_blank" class="gallery-a">
+                <img src="static/images/gallery/trivia3.jpg" class="gallery-img">
+              </a>
+            </div>
+            <hr class="gallery-line">
+            <div class="w3-left title-gallery">
+              <h2 class="blue">Electric Boogaloo</h2>
+            </div>
+            <div class="w3-left">
+              <a href="static/images/gallery/trivia1.jpg" target="_blank" class="gallery-a">
+                <img src="static/images/gallery/trivia1.jpg" class="gallery-img">
+              </a>
+              <a href="static/images/gallery/trivia2.jpg" target="_blank" class="gallery-a">
+                <img src="static/images/gallery/trivia2.jpg" class="gallery-img">
+              </a>
+              <a href="static/images/gallery/trivia3.jpg" target="_blank" class="gallery-a">
+                <img src="static/images/gallery/trivia3.jpg" class="gallery-img">
+              </a>
+            </div>
+            -->
+            <div class="w3-center">
+              <h2 class="blue" style="font-weight: bold; align-content: center;">2022-2023</h2>
+            </div>
+            <div id="2223">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div id="footer"></div>
+    </body>
+
+    <script src="static/script.js"></script>
+
+    <script type="text/javascript">
+
+
+        var names = ["wrench", "ireland", "trivia", "formal", "service"]; //Name of file
+        var titles = ["Dodgeball Fundraiser", "Brothers in Ireland", "MC Trivia Night", "KKY/TBS Formal", "Service Projects"]; //title displayed
+        var num = [12, 6, 11, 12, 6]; //number of images in each gallery set
+        var year = ["2223", "2223", "2223", "2223", "2223"]; //year ID, must create new one for every year that passes, see template below
+
+        for (let i = 0; i < names.length; i++) {
+            //Creates the title div and h2, adds the title and adds that to the year div
+            const title = document.createElement("h2");
+            title.classList.add("blue");
+            const galtitle = titles[i];
+            title.append(galtitle);
+            const titlediv = document.createElement("div");
+            titlediv.classList.add("w3-left", "title-gallery");
+            titlediv.append(title);
+            const yeardiv = document.getElementById(year[i]);
+            yeardiv.append(titlediv);
+
+            //puts the images into the image div
+            const imgdiv = document.createElement("div");
+            imgdiv.classList.add("w3-left");
+            for (let j = 0; j < num[i]; j++) {
+
+                const a = document.createElement("a");
+                a.setAttribute("href", "static/images/gallery/"+ names[i] + j.toString() + ".jpg");
+                a.setAttribute("target", "_blank");
+                a.classList.add("gallery-a");
+                const img = document.createElement("img");
+                img.setAttribute("src", "static/images/gallery/"+ names[i] + j.toString() + ".jpg");
+                img.classList.add("gallery-img");
+                a.appendChild(img);
+                imgdiv.appendChild(a);
+
+            }
+
+            yeardiv.append(imgdiv);
+
+            //creates a line if necessary
+            if (i != names.length - 1) {
+                const hr = document.createElement("hr");
+                hr.classList.add("gallery-line");
+                yeardiv.append(hr);
+            }
+        }
+
+    </script>
+
+</html>
+<!--
+TEMPLATE FOR NEW YEARS, ADD AT TOP OF GALLERY
+<div class="w3-center">
+  <h2 class="blue" style="font-weight: bold; align-content: center;">**YEAR 1**-**YEAR 2**</h2>
+</div>
+<div id="**4 DIGIT YEAR ID">
+</div>
+-->
