@@ -336,7 +336,7 @@ article p {
 }
 
 .gallery-img {
-    max-width: 200px;
+    width: auto;
     max-height: 150px;
     padding: 5px;
 }
