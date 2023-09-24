@@ -44,42 +44,42 @@
     "chairs": [
         {
             "position": "Service",
-            "name": ["Drew Kertesz/", "Logan Hamilton"],
+            "name": ["Hunter Dambek", "Nathan Greenland"],
             "description": "Correspond with alumni through periodic publications, maintain accurate records of alumni members, and assist graduating Brothers on their road to Alumni status."
         },
         {
             "position": "Community",
-            "name": ["Nathan Greenland", "Elissa Weinrick"],
+            "name": ["Elissa Weinrick", "Hannah Durgy"],
             "description": "Organizes events and activities for active chapter, plans joint activities with Tau Beta Sigma, organizes activities with other chapters, and plans all chapter social functions."
         },
         {
             "position": "Music",
-            "name": ["Sydney Godwin/", "Hannah Slabach"],
+            "name": ["Ren Bethel"],
             "description": "Responsible for promoting musicianship throughout chapter and for the maintenance of music share project."
         },
         {
             "position": "Traditions",
-            "name": ["Gianna Marzen", "Jared Nathan"],
+            "name": ["Trevor Daugerdas", "Luke Huber"],
             "description": "Maintains ritual equipment and keeps detailed inventory, sands and paints the senior boards for any graduating seniors, and organizes the bandinage."
         },
         {
             "position": "Growth",
-            "name": ["Sara Heffernan", "Avery Schieber/"],
+            "name": ["Connor Arick", "Kayli Kilzer"],
             "description": "Plans all chapter recruitment functions and pre-selections activities, organizes Big Brother selection and program, develops membership activities for active members, and assists VPM with Membership Education Activities as needed."
         },
         {
             "position": "Fundraising",
-            "name": ["Franklin Johnson/"],
+            "name": ["Will Mattison", "Karen Kramer"],
             "description": "Plans and advises chapter on all fundraising events, organizes the selling of all merchandise and fundraising items, investigates new merchandise, fundraising projects and other ideas as needed, and offers new ideas and events for consideration."
         },
         {
             "position": "Publicity",
-            "name": ["Valerie Minnick"],
+            "name": ["Maddie Brod", "Olivia McGary"],
             "description": "Responsible for communicating with the public and university with what is going on in our fraternity and department and responsible for advertising recruitment materials."
         },
         {
             "position": "Technology",
-            "name": ["Chad Matulenko"],
+            "name": ["Chad Matulenko", "Josh McAtee"],
             "description": "Responsible for all things computer related with respect to the chapter, including the chapter website and additional computerized record keeping for the chapter."
         }
     ]
