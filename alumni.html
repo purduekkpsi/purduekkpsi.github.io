@@ -17,27 +17,34 @@
             </div>
 
             <div class="w3-container w3-padding-32 w3-center" id="darts" style="background-color: #DFDFDF;  border-top: 2px solid #09268a; border-bottom: 2px solid #09268a;">
-                <button class="w3-button w3-section dart-button" onclick="current()">
-                    <i class="fa-solid fa-file-lines"></i>&ensp; This Month's Alumni Dart
-                </button>
+                <div class="dart-bgrid">
+                    <button class="w3-button w3-section dart-button" onclick="current()" style="grid-column: 1 / 2; grid-row: 1 / 2">
+                        <i class="fa-solid fa-file-lines"></i>&ensp; Current Dart Issue
+                    </button>
 
-                <button class="w3-button w3-section dart-button" onclick="archives()">
-                    <i class="fa-solid fa-folder-open"></i>&ensp; Dart Archives
-                </button>
+                    <button class="w3-button w3-section dart-button" onclick="archives()"style="grid-column: 2 / 3; grid-row: 1 / 2">
+                        <i class="fa-solid fa-folder-open"></i>&ensp; Dart Archives
+                    </button>
 
-                <button class="w3-button w3-section dart-button" onclick="arrow()">
-                    <i class="fa-solid fa-arrow-right"></i>&ensp; Arrow
-                </button>
+                    <button class="w3-button w3-section dart-button" onclick="arrow()" style="grid-column: 1 / 2; grid-row: 2 / 3">
+                        <i class="fa-solid fa-arrow-right"></i>&ensp; Current Arrow Issue
+                    </button>
 
-                <button class="w3-button w3-section dart-button" onclick="parent.open('https://www.gammapialumni.org/');">
-                  <i class="fa-solid fa-globe"></i>&ensp; GPAA Website
-                </button>
+                    <button class="w3-button w3-section dart-button" onclick="ararchives()" style="grid-column: 2 / 3; grid-row: 2 / 3">
+                        <i class="fa-solid fa-arrow-left"></i>&ensp; Arrow Archives
+                    </button>
 
-                    <iframe id="dart-current" class="dart w3-show" src="https://docs.google.com/document/d/e/2PACX-1vS_dHj9HAg5AFCE0nv4ZAhF23F97ezQPzWlmMtstTN8Pkcl8hKJCs7OdH4VqZ03d2gEBpo_3hFPZOT2/pub?embedded=true" frameborder="0"></iframe>
+                    <button class="w3-button w3-section gpaa-button" onclick="parent.open('https://www.gammapialumni.org/');">
+                        <i class="fa-solid fa-globe"></i>&ensp; GPAA Website
+                    </button>
+                </div>
+                <iframe id="dart-current" class="dart w3-show" src="https://docs.google.com/document/d/e/2PACX-1vS_dHj9HAg5AFCE0nv4ZAhF23F97ezQPzWlmMtstTN8Pkcl8hKJCs7OdH4VqZ03d2gEBpo_3hFPZOT2/pub?embedded=true" frameborder="0"></iframe>
 
-                    <iframe id="dart-archives" class="dart w3-hide" src="https://docs.google.com/document/d/e/2PACX-1vRdLkUAK2e4LfZvksUSt5lLBPBRF7OuJJjg1JjBJDVWFRWYmfsJg0ljuRgOPicyM7cN_scM4NuAyLW2/pub?embedded=true" frameborder="0"></iframe>
+                <iframe id="dart-archives" class="dart w3-hide" src="https://docs.google.com/document/d/e/2PACX-1vRdLkUAK2e4LfZvksUSt5lLBPBRF7OuJJjg1JjBJDVWFRWYmfsJg0ljuRgOPicyM7cN_scM4NuAyLW2/pub?embedded=true" frameborder="0"></iframe>
 
-                    <iframe id="arrow" class="dart w3-hide" src="https://docs.google.com/document/d/e/2PACX-1vShbnRRhQ9iN_C5FcmPG5Yd9wqTOFiA0gUNMmGpVWgMiONL0Xe5Sye0WTSgmD3pnLsZtVZucwoPNA8B/pub?embedded=true" frameborder="0"></iframe>
+                <iframe id="arrow" class="dart w3-hide" src="https://docs.google.com/document/d/e/2PACX-1vShbnRRhQ9iN_C5FcmPG5Yd9wqTOFiA0gUNMmGpVWgMiONL0Xe5Sye0WTSgmD3pnLsZtVZucwoPNA8B/pub?embedded=true" frameborder="0"></iframe>
+
+                <iframe id="arrow-archive" class="dart w3-hide" src="https://docs.google.com/document/d/e/2PACX-1vTSrw1mx5kOgkUXz3yizybirWpA_bkABlzcdI6A9vOECkjxO4pzmZJmUbX-gu-5Kg54QiW51O9RHa85/pub?embedded=true" frameborder="0"></iframe>
             </div>
         </div>
 
@@ -54,6 +61,8 @@
             document.getElementById("dart-archives").classList.remove("w3-show");
             document.getElementById("arrow").classList.add("w3-hide");
             document.getElementById("arrow").classList.remove("w3-show");
+            document.getElementById("arrow-archive").classList.add("w3-hide");
+            document.getElementById("arrow-archive").classList.remove("w3-show");
         }
 
         function archives() {
@@ -63,6 +72,8 @@
             document.getElementById("dart-current").classList.remove("w3-show");
             document.getElementById("arrow").classList.add("w3-hide");
             document.getElementById("arrow").classList.remove("w3-show");
+            document.getElementById("arrow-archive").classList.add("w3-hide");
+            document.getElementById("arrow-archive").classList.remove("w3-show");
         }
 
         function arrow() {
@@ -72,6 +83,19 @@
             document.getElementById("dart-current").classList.remove("w3-show");
             document.getElementById("arrow").classList.add("w3-show");
             document.getElementById("arrow").classList.remove("w3-hide");
+            document.getElementById("arrow-archive").classList.add("w3-hide");
+            document.getElementById("arrow-archive").classList.remove("w3-show");
+        }
+
+        function ararchives() {
+          document.getElementById("dart-current").classList.add("w3-hide");
+          document.getElementById("dart-current").classList.remove("w3-show");
+          document.getElementById("dart-archives").classList.add("w3-hide");
+          document.getElementById("dart-archives").classList.remove("w3-show");
+          document.getElementById("arrow").classList.add("w3-hide");
+          document.getElementById("arrow").classList.remove("w3-show");
+          document.getElementById("arrow-archive").classList.add("w3-show");
+          document.getElementById("arrow-archive").classList.remove("w3-hide");
         }
     </script>
 
