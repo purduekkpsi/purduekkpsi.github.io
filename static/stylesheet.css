@@ -355,6 +355,13 @@ article p {
         background-color: #09268a;
         color: white;
     }
+
+    .dart-button {
+        font-size: min(20px, max(8.5px, 2vw));
+        height: 50px;
+        background-color: #09268a;
+        color: white;
+    }
 }
 
 
@@ -396,6 +403,13 @@ article p {
     border: 1px solid #09268a;
     clear: both;
     align-self: center;
+}
+
+.gallery-bdiv {
+    padding-left: max(10%, 5px);
+    padding-right: max(10%, 5px);
+    display: flex;
+    justify-content: center;
 }
 
 /*
