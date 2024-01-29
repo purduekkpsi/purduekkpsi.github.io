@@ -1,0 +1,14 @@
+Make GitHub acc and fork the main repo.
+
+download VS code
+
+
+extensions:
+1) Live Preview
+2) GitHub Repo
+
+Log in to the GitHub one using same account. 
+
+Because the preview won't work (for now) with virtual workspaces - GitHub fork is online - one must have a local copy of the fork.
+
+Use the clone command to store a local copy of the whole (forked) repo. It's from here that one can make changes and push to their personal fork online. 
