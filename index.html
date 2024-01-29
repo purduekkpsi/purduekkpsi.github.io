@@ -9,7 +9,7 @@
 
         <div id="content">
             <div id="showcase">
-                <img id="slides">
+                <img  style="aspect-ratio: 2.5; object-fit: cover;" id="slides">
                 <div id="showcase-text-bg"></div>
                 <div id="showcase-text">KAPPA KAPPA PSI<br><span style="font-size: 2vw">PURDUE UNIVERSITY &#9679 GAMMA PI</span></div>
             </div>
@@ -28,10 +28,10 @@
                 <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 blue">Gamma Pi Value Statement</h3>
                 <h5>The Brothers at Purdue take the mission of Kappa Kappa Psi even further with specific chapter goals</h5>
 
-                <div style="display: flex; flex-wrap: wrap">
+                <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
                     <div class="w3-col l4 m6 value">
                         <div class="value-section">
-                            <img id="random4" class="border-img value-img">
+                            <img style="aspect-ratio: 2; object-fit: cover;" id="random4" class="border-img value-img">
                             <h3 class="blue"><i class="fa-solid fa-people-group"></i>&ensp; Community</h3>
                             <p style="width:95%">Just as Purdue Bands and Orchestras creates a family on campus, Gamma Pi fosters a sense of community and forms a
                                 support network among brothers in our own chapter and other chapters. </p>
@@ -40,7 +40,7 @@
 
                     <div class="w3-col l4 m6 value">
                         <div class="value-section">
-                            <img id="random5" class="border-img value-img">
+                            <img style="aspect-ratio: 2; object-fit: cover;" id="random5" class="border-img value-img">
                             <h3 class="blue"><i class="fa-solid fa-puzzle-piece"></i>&ensp; Growth</h3>
                             <p style="width:95%">Gamma Pi provides opportunities for individuals to grow as leaders, musicians, and brothers and in doing so helps
                                 our chapter maximize achievement and continuously strive for the highest.</p>
@@ -49,7 +49,7 @@
 
                     <div class="w3-col l4 m6 value">
                         <div class="value-section">
-                            <img id="random6" class="border-img value-img">
+                            <img style="aspect-ratio: 2; object-fit: cover;" id="random6" class="border-img value-img">
                             <h3 class="blue"><i class="fa-solid fa-square-check"></i>&ensp; Initiative</h3>
                             <p style="width:95%">Gamma Pi takes initiative by searching and finding ways to improve both chapter and the university bands and by
                                 routinely being prepared and anticipating others' needs.</p>
@@ -58,7 +58,7 @@
 
                     <div class="w3-col l4 m6 value">
                         <div class="value-section">
-                            <img id="random7" class="border-img value-img">
+                            <img style="aspect-ratio: 2; object-fit: cover;" id="random7" class="border-img value-img">
                             <h3 class="blue"><i class="fa-solid fa-music"></i>&ensp; Passion</h3>
                             <p style="width:95%">Brothers of Gamma Pi strive to balance our passions for our professional disciplines with those for music,
                                 propel the chapter toward greater accomplishments, and instill the same attitudes within our community.</p>
@@ -67,7 +67,7 @@
 
                     <div class="w3-col l4 m6 value">
                         <div class="value-section">
-                            <img id="random8" class="border-img value-img">
+                            <img style="aspect-ratio: 2; object-fit: cover;" id="random8" class="border-img value-img">
                             <h3 class="blue"><i class="fa-solid fa-heart"></i>&ensp; Integrity</h3>
                             <p style="width:95%">By closely following the purposes and ideals of Kappa Kappa Psi, Gamma Pi demonstrates integrity by serving
                                 as role models who display consistent, honorable character.</p>
@@ -82,7 +82,7 @@
 
                 <div class="w3-third">
                     <div class="updates-section w3-center">
-                        <img id="random1" class="border-img updates-img">
+                        <img style="aspect-ratio: 1; object-fit: cover;" id="random1" class="border-img updates-img">
                         <h3 class="blue">Gamma Pi Alumni Association</h3>
                         <p style="width:95%">Gamma Pi is proud to be one of 20 chapters of the fraternity to have an alumni association. Here, alumni can keep up with
                             the latest service projects, learn about the new incoming class of brothers, and support Gamma Pi through donations.</p>
@@ -91,7 +91,7 @@
 
                 <div class="w3-third">
                     <div class="updates-section w3-center">
-                        <img id="random2" class="border-img updates-img">
+                        <img style="aspect-ratio: 1; object-fit: cover;" id="random2" class="border-img updates-img">
                         <h3 class="blue">The Arpeggio</h3>
                         <p style="width:95%">Learn about what is going on with other chapters in the North Central District through The Arpeggio. Here you can learn
                             about outstanding service projects, new member education, and ideas for benefit of all chapters. Check it out!</p>
@@ -100,7 +100,7 @@
 
                 <div class="w3-third">
                     <div class="updates-section w3-center">
-                        <img id="random3" class="border-img updates-img">
+                        <img style="aspect-ratio: 1; object-fit: cover;" id="random3" class="border-img updates-img">
                         <h3 class="blue">Keeping up with Gamma Pi</h3>
                         <p style="width:95%">Want to know more about what the Brothers at Purdue are doing? Read the updates our Alumni Secretary publishes every
                             month to hear about the Brother of the Week, ongoing service projects, and the new class of Brothers!</p>
@@ -115,6 +115,7 @@
     <script src="static/script.js"></script>
 
     <!--slide images-->
+    <!-- these are technially aspect ratio 2.5 but should auto fit most pictures decently now -NCV -->
     <script>
                 var images = ["static/images/sigh.jpg", "static/images/kap.jpg", "static/images/who.jpg", "static/images/juice.jpg"];
                 var i = -1;
