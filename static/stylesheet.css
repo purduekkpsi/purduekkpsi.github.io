@@ -213,9 +213,8 @@ article p {
 .leadership {
     margin-left:15%;
     width:70%;
-    /*took me wayyy too long to find the aspect-ratio command -NCV*/
-    aspect-ratio: 1 / 1;
-    object-fit: cover;
+    
+
 }
 
 .leadership img{
@@ -223,11 +222,13 @@ article p {
 }
 
 .border-img{
+    /*took me wayyy too long to find the aspect-ratio command. Any pic which is given a standard border is already by itself, so crop to square. -NCV*/
+    aspect-ratio: 1;
+    object-fit: cover;
     border: 5px solid #09268a;
 }
 
 .chair-img {
-    display: flex;
 }
 
 .cochair-left{
