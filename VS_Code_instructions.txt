@@ -1,0 +1,18 @@
+Make GitHub acc and fork the main repo - this creates a new branch for the user.
+
+download VS code
+
+
+extensions:
+1) Live Preview
+2) GitHub Repo
+
+Log in to the GitHub one using same account. 
+
+Because the preview won't work (for now) with virtual workspaces - GitHub fork is online - one must have a local copy of the fork.
+
+Use the clone command to store a local copy of the whole (forked) repo. It's from here that one can make changes and push to their personal branch. 
+
+After changes are made in VS code to this local branch, then committed to the forked branch on github itself, a pull request must be made to sync changes to the main psi repo.
+This is decided on by whomever is running the github account at the time. 
+

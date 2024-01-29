@@ -69,17 +69,17 @@
         },
         {
             "position": "Fundraising",
-            "name": ["Will Mattison", "Karen Kramer"],
+            "name": ["Will Mattison"],
             "description": "Plans and advises chapter on all fundraising events, organizes the selling of all merchandise and fundraising items, investigates new merchandise, fundraising projects and other ideas as needed, and offers new ideas and events for consideration."
         },
         {
             "position": "Publicity",
-            "name": ["Maddie Brod", "Olivia McGary"],
+            "name": ["Olivia McGary"],
             "description": "Responsible for communicating with the public and university with what is going on in our fraternity and department and responsible for advertising recruitment materials."
         },
         {
             "position": "Technology",
-            "name": ["Chad Matulenko", "Josh McAtee"],
+            "name": ["Chad Matulenko", "Nathan Valentine"],
             "description": "Responsible for all things computer related with respect to the chapter, including the chapter website and additional computerized record keeping for the chapter."
         }
     ]
