@@ -334,7 +334,7 @@ article p {
     width: max(300px, 25vw);
     background-color: #09268a;
     color: white;
-    
+
 }
 
 .gpaa-button {
@@ -418,8 +418,24 @@ article p {
     padding-right: max(10%, 5px);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
+.gal-button {
+    font-size: min(12px, max(8.5px, 4vw));
+    height: 30px;
+    width: max(200px, 15vw);
+    background-color: #09268a;
+    color: white;
+    border-radius: 4px;
+}
+
+.imgdiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 /*
 body{
     margin-top:80px;
