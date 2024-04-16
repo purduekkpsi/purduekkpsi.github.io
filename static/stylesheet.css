@@ -331,10 +331,11 @@ article p {
 .dart-button {
     font-size: min(20px, max(8.5px, 4vw));
     height: 75px;
-    width: max(300px, 25vw);
+    width: max(300px, 30vw);
     background-color: #09268a;
     color: white;
-    
+    border-radius: 10px;
+
 }
 
 .gpaa-button {
@@ -417,8 +418,24 @@ article p {
     padding-right: max(10%, 5px);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
+.gal-button {
+    font-size: min(12px, max(8.5px, 4vw));
+    height: 30px;
+    width: max(200px, 15vw);
+    background-color: #09268a;
+    color: white;
+    border-radius: 4px;
+}
+
+.imgdiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
 /*
 body{
     margin-top:80px;
