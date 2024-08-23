@@ -13,6 +13,6 @@ Because the preview won't work (for now) with virtual workspaces - GitHub fork i
 
 Use the clone command to store a local copy of the whole (forked) repo. It's from here that one can make changes and push to their personal branch. 
 
-After changes are made in VS code to this local branch, then committed to the forked branch on github itself, a pull request must be made to sync changes to the main Psi repo.
+After changes are made in VS code to this local branch (whatever edits), then committed to the forked branch on github itself (through the source control tab on VSCode), a pull request must be made to sync changes to the main Psi repo.
 This is decided on by whomever is running the github account at the time. Notify them of changes, but current suggestion is to update site maybe once a month as needed.
 
