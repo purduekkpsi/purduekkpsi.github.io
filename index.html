@@ -6,17 +6,22 @@
 
     <body>
         <div id="nav"></div>
-
-        <div id="content">
+        <div class="content">
+            <br><br><br><br>
             <div id="showcase">
                 <img  style="aspect-ratio: 2.5; object-fit: cover;" id="slides">
+                <span class="websiteLogo">
+                    <img src="static/images/websiteLogo2.svg">
+                </span>
+                <!--
                 <div id="showcase-text-bg"></div>
-                <div id="showcase-text">KAPPA KAPPA PSI<br><span style="font-size: 2vw">PURDUE UNIVERSITY &#9679 GAMMA PI</span></div>
+                <div id="showcase-text">KAPPA KAPPA PSI<br><span style="font-size: 1.5vw">PURDUE UNIVERSITY &#9679 GAMMA PI</span></div>
+                -->
             </div>
 
             <!-- About Section -->
             <div class="w3-container w3-padding-32" id="about">
-                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 blue">About</h3>
+                <h3 class="w3-border-bottom w3-border-light-grey blue">About</h3>
                 <p>Kappa Kappa Psi is a fraternal organization that promotes the advancement of college and university bands through
                     dedicated service and support to the bands; comprehensive education; leadership opportunities; and recognition;
                     for the benefit of its members and society
@@ -24,8 +29,8 @@
             </div>
 
             <!---Chapter Values-->
-            <div class="w3-container w3-padding-32" id="values" style="background-color: #DFDFDF;  border-top: 2px solid #09268a; border-bottom: 2px solid #09268a;">
-                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 blue">Gamma Pi Value Statement</h3>
+            <div class="w3-container" id="values" style="background-color: #DFDFDF;  border-top: 2px solid #09268a; border-bottom: 2px solid #09268a;">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-8 blue">Gamma Pi Value Statement</h3>
                 <h5>The Brothers at Purdue take the mission of Kappa Kappa Psi even further with specific chapter goals</h5>
 
                 <div style="display: flex; flex-wrap: wrap; justify-content: space-evenly;">
@@ -77,8 +82,8 @@
 
             </div>
 
-            <div class="w3-container w3-padding-32" id="values" style="background-color: #DFDFDF; border-bottom: 2px solid #09268a;">
-                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 blue">Get the Updates</h3>
+            <div class="w3-container" id="values" style="background-color: #DFDFDF; border-bottom: 2px solid #09268a;">
+                <h3 class="w3-border-bottom w3-border-light-grey w3-padding-8 blue">Get the Updates</h3>
 
                 <div class="w3-third">
                     <div class="updates-section w3-center">
@@ -114,20 +119,19 @@
 
     <script src="static/script.js"></script>
 
-    <!--slide images-->
     <!-- these are technially aspect ratio 2.5 but should auto fit most pictures decently now -NCV -->
     <script>
-                var images = ["static/images/sigh.jpg", "static/images/kap.jpg", "static/images/who.jpg", "static/images/juice.jpg", "static/images/redacted.jpg"];
-                var i = -1;
+        var images = ["static/images/sigh.jpg", "static/images/kap.jpg", "static/images/who.jpg", "static/images/juice.jpg", "static/images/redacted.jpg"];
+        var i = -1;
 
-                rotate();
+        rotate();
 
-                function rotate() {
-                    i = (i+1)%images.length;
-                    document.getElementById("slides").src = images[i];
-                    setTimeout(rotate, 4000);
-                }
-        </script>
+        function rotate() {
+            i = (i+1)%images.length;
+            document.getElementById("slides").src = images[i];
+            setTimeout(rotate, 4000);
+        }
+    </script>
 
     <!--Square images-->
     <script>

@@ -59,6 +59,17 @@ html{
     display:none;
 }*/
 
+.websiteLogo {
+    display: inline-block;
+    vertical-align: middle;
+    bottom: 16px;
+    width: 65%;
+    min-width: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0)
+}
+
 #showcase {
     position: relative;
     width: 100%;
@@ -74,7 +85,7 @@ html{
     height: 30%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     background-color: #DFDFDF;
     opacity: 0.6;
     border: 5px solid #09268a;
@@ -84,10 +95,10 @@ html{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     text-align: center;
     color: #09268a;
-    font-size: 4vw;
+    font-size: 3vw;
     /*font-family: 'Courier New', monospace;
     font-family: Impact, Haettenschweiler, sans-serif;
     font-weight: bold;*/
@@ -95,7 +106,19 @@ html{
 }
 
 #header {
-    padding-top: 50px;
+    padding-top: 70px;
+}
+
+.content{
+    max-width: 1200px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin: auto;
+}
+
+#contact{
+    max-width: 1200px;
+    margin: auto;
 }
 
 .coa {
@@ -115,8 +138,10 @@ html{
 }
 
 .title {
-    width: 35%;
+    width: fit-content;
     min-width: 200px;
+    max-width: 800px;
+    padding: 0em 1em;
     background-color: #DFDFDF;
     border: 2px solid #09268a;
     margin-top: 50px;
@@ -226,8 +251,9 @@ article p {
     border: 5px solid #09268a;
 }
 
+/*
 .chair-img {
-}
+}*/
 
 .cochair-left{
     margin-left: 15%;
@@ -273,10 +299,12 @@ article p {
 }
 
 #life-and-honorary-header {
-    width: 60%;
-    margin-left: 20%;
+    width: 90%;
+    align-content: center;
     text-align: center;
-    font-size: max(18px,2.5vw);
+    margin: auto;
+    font-weight: bold;
+    font-size: max(18px,2vw);
 }
 
 @media only screen and (max-width:600px) {
@@ -372,7 +400,6 @@ article p {
     }
 }
 
-
 .dart {
     width: 100%;
     max-width: 840px;
@@ -380,14 +407,11 @@ article p {
     margin: auto;
     margin-top: 16px;
 }
-.footer-section {
-    margin-left: 5%;
-    width: 90%;
-}
 
 .social-media {
     margin: 0px 10px;
     text-decoration: none;
+    font-size: 0.5em;
 }
 
 .gallery-img {
