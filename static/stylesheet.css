@@ -62,17 +62,21 @@ html{
 .websiteLogo {
     display: inline-block;
     vertical-align: middle;
-    bottom: 16px;
-    width: 65%;
-    min-width: 350px;
-    position: absolute;
+    width: 80%;
+    min-width: 600px;
+    position: relative;
     left: 50%;
-    transform: translate(-50%, 0)
+    transform: translate(-50%, 0);
+    padding: 16px 0px 0px 0px;
 }
 
 #showcase {
-    position: relative;
-    width: 100%;
+    position: sticky;
+    top: 70px;
+    width: 80%;
+    margin: auto;
+    min-width: 600px;
+    z-index: -1;
 }
 
 #slides {
@@ -107,6 +111,14 @@ html{
 
 #header {
     padding-top: 70px;
+}
+
+.white-bkgd {
+    width: 100%;
+    fill: white;
+    z-index: 1;
+    position: relative;
+    background-color: white;
 }
 
 .content{
