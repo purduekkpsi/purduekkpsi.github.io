@@ -4,8 +4,43 @@ html{
 }
 */
 
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+p {font-family: "Noto Sans", sans-serif;}
+h1 {font-family: "Noto Serif", serif;}
+h2 {font-family: "Noto Serif", serif;}
+h3 {font-family: "Noto Serif", serif; font-weight: 550;}
+a {font-family: "Noto Sans", sans-serif; font-kerning: auto;}
+
+/* this is now a flex container
 #nav-big{
     display: block;
+}
+    */
+
+#buttonFlex {
+    display:flex; 
+    align-items: center; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    margin-inline: 0;
+    padding: 6px 6px;
 }
 
 #nav-small{
@@ -20,19 +55,22 @@ html{
     color: #ffc61e;
 }
 
+
 @media only screen and (max-width:600px){
     #nav-big{
         display: none;
     }
 
     #nav-small{
-        display: block;
+        display:flex; 
+        align-items: center;
     }
 }
 
 #nav-title-small {
     font-size: 100%;
 }
+
 
 /*
 #menu-img {
@@ -42,9 +80,8 @@ html{
 
 @media only screen and (max-width:450px) {
     #nav-title-small {
-        font-size: 70%;
-        margin-top: 5px;
-        padding: 8px 0px 8px;
+        font-size: 100%;
+        padding: 6px 0px;
     }
 }
 
@@ -62,21 +99,20 @@ html{
 .websiteLogo {
     display: inline-block;
     vertical-align: middle;
-    width: 80%;
-    min-width: 600px;
+    width: 100%;
+    max-width: 720px;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
-    padding: 16px 0px 0px 0px;
+    padding: 32px 8px 0px 8px;
 }
 
 #showcase {
     position: sticky;
     top: 70px;
+    z-index: -1;
     width: 80%;
     margin: auto;
-    min-width: 600px;
-    z-index: -1;
 }
 
 #slides {
@@ -114,18 +150,16 @@ html{
 }
 
 .white-bkgd {
-    width: 100%;
-    fill: white;
-    z-index: 1;
+    z-index: 0;
     position: relative;
     background-color: white;
 }
 
 .content{
     max-width: 1200px;
-    padding-left: 16px;
-    padding-right: 16px;
+    
     margin: auto;
+    
 }
 
 #contact{

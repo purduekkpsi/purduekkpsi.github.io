@@ -12,13 +12,19 @@
     <body>
         <!-- Navbar (sit on top) -->
         <div class="w3-top navbar" id="nav-big">
-            <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-                <a href="index.html" class="w3-bar-item w3-button w3-mobile"><b style="color: #09268a;">Purdue Kappa Kappa Psi</b></a>
-                <div class="w3-right w3-small">
+            <div class="w3-white w3-card" id="buttonFlex">
+
+                <div >
+                    <a href="index.html" class="w3-bar-item w3-button w3-mobile" style="display: flex; justify-content: space-between; align-items: center; padding: 6px">
+                        <img src="static/images/crest_OUTLINE.png" style="height: 32px; width: auto; margin: 0px 12px 0px 4px;">
+                        <strong style="color: #09268a; font-size: 20px;">Purdue Kappa Kappa Psi</strong>
+                    </a>
+                </div>
+                <div>
                     <a href="history.html" class="w3-bar-item w3-button w3-mobile">History</a>
                     <a href="family_tree.html" class="w3-bar-item w3-button w3-mobile">Family Tree</a>
                     <a href="chapter_leadership.html" class="w3-bar-item w3-button w3-mobile">Chapter Leadership</a>
-                    <a href="life_and_honorary.html" class="w3-bar-item w3-button w3-mobile">Life and Honorary Members</a>
+                    <a href="life_and_honorary.html" class="w3-bar-item w3-button w3-mobile">Life & Honorary Members</a>
                     <a href="calendar.html" class="w3-bar-item w3-button w3-mobile">Calendar</a>
                     <a href="alumni.html" class="w3-bar-item w3-button w3-mobile">Alumni</a>
                     <!--<a href="gallery.html" class="w3-bar-item w3-button w3-mobile">Gallery</a>-->
@@ -27,15 +33,20 @@
         </div>
         
         <div class="w3-top navbar" id="nav-small">
-            <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-                <a href="index.html" id="nav-title-small" class="w3-bar-item w3-button"><b style="color: #09268a;">Purdue Kappa Kappa Psi</b></a>
+            <div class="w3-bar w3-white  w3-padding w3-card">
+                <div>
+                    <a href="index.html" id="nav-title-small" class="w3-bar-item w3-button">
+                        <strong style="color: #09268a;font-size: larger;">Purdue Kappa Kappa Psi</strong>
+                    </a>
+                </div>
+                
                 <div class="w3-right w3-small w3-dropdown-click">
                     <img id="menu-img" src="static/images/menu.png" onclick="menu()" onload="resize()" class="w3-button w3-right" style="height: 40px">
                     <div id="menu-dropdown" class="w3-dropdown-content w3-white" style="right:0; width:30%;">
                         <a href="history.html" class="w3-button" style="width:100%">History</a>
                         <a href="family_tree.html" class="w3-button" style="width:100%">Family Tree</a>
                         <a href="chapter_leadership.html" class="w3-button" style="width:100%">Chapter Leadership</a>
-                        <a href="life_and_honorary.html" class="w3-button" style="width:100%">Life and Honorary Members</a>
+                        <a href="life_and_honorary.html" class="w3-button" style="width:100%">Life & Honorary Members</a>
                         <a href="calendar.html" class="w3-button" style="width:100%">Calendar</a>
                         <a href="alumni.html" class="w3-button" style="width:100%">Alumni</a>
                         <!--<a href="gallery.html" class="w3-button" style="width:100%">Gallery</a>-->
