@@ -1,0 +1,79 @@
+        <!--slide images-->
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="static/images/sigh.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="static/images/kap.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="static/images/who.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="static/images/juice.jpg">
+            </div>
+            <div class="mySlides fade">
+                <img src="static/images/redacted.jpg">
+            </div>
+        </div>
+
+
+
+.slideshow-container {
+    max-width: 1720px;
+    position: relative;
+    margin: auto;
+    
+}
+
+.mySlides {
+    display: none;
+    width: 100%;
+    
+}
+
+/* Fading animation */
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+
+
+// homepage slideshow
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+
+
+<!-- these are technially aspect ratio 2.5 but should auto fit most pictures decently now -NCV -->
+<script>
+    var images = ["static/images/sigh.jpg", "static/images/kap.jpg", "static/images/who.jpg", "static/images/juice.jpg", "static/images/redacted.jpg"];
+    var i = -1;
+
+    rotate();
+
+    function rotate() {
+        i = (i+1)%images.length;
+        document.getElementById("slides").src = images[i];
+        setTimeout(rotate, 4000);
+    }
+</script>
