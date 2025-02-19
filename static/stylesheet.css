@@ -45,7 +45,7 @@ a {font-family: "Noto Sans", sans-serif; font-kerning: auto;}
 
 #nav-small{
     display: none;
-}
+} 
 
 .blue {
     color: #09268a;
@@ -146,7 +146,7 @@ a {font-family: "Noto Sans", sans-serif; font-kerning: auto;}
 }
 
 #header {
-    padding-top: 70px;
+    margin-top: 70px;
 }
 
 .white-bkgd {
@@ -338,6 +338,16 @@ article p {
     .cochair-right {
         width: 45%;
     }
+}
+
+picture-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    height: 100px;
+    max-width: 100%;
 }
 
 #fam-trees{

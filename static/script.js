@@ -1,6 +1,14 @@
 $("head").load("templates/head.html");
 $("#nav").load("templates/template.html #nav-big, #nav-small", resize);
 $("#picture-header").load("templates/template.html #header");
+
+// in order to load the headers more pretty this method injects the pageTitle var after pulling it from a data-title="" within the element of id pageInfo, then replaces the text of id page-header with the title
+const pageTitle = $("#pageInfo").data("title");
+$("#picture-header2").load("templates/template.html #header2" , function () {
+    // Inject dynamic content after loading
+    $("#page-header").text(pageTitle);
+  });
+$("#page-header").text(pageTitle);
 $("#footer").load("templates/template.html #contact, footer");
 
 window.onload = resize;
