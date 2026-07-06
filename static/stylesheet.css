@@ -340,7 +340,7 @@ article p {
     }
 }
 
-picture-header {
+#picture-header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -349,6 +349,19 @@ picture-header {
     height: 100px;
     max-width: 100%;
 }
+
+#picture-header2 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#picture-header2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 
 #fam-trees{
     width: 100%;
@@ -516,6 +529,51 @@ picture-header {
     flex-wrap: wrap;
     width: 100%;
 }
+
+
+.lyrics {
+
+    margin-top: 15px;
+    margin-right: 5%;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    text-align: center;
+    background: linear-gradient(135deg, #09268a, white, #ffc61e);
+}
+
+#music-1 {
+    width: 50%;
+    border: 5px solid #09268a;
+}
+
+#music-2 {
+    width: 50%;
+    border-top: 5px solid #09268a;
+    border-bottom: 5px solid #09268a;
+    border-right: 5px solid #09268a;
+}
+
+#music-3 {
+    width: 33.33%;
+    border-left: 5px solid #09268a;
+    border-bottom: 5px solid #09268a;
+    border-right: 5px solid #09268a;
+}
+
+#music-4 {
+    width: 33.33%;
+    border-bottom: 5px solid #09268a;
+}
+
+#music-5 {
+    width: 33.33%;
+    border-left: 5px solid #09268a;
+    border-bottom: 5px solid #09268a;
+    border-right: 5px solid #09268a;
+}
+
+
+
 /*
 body{
     margin-top:80px;
