@@ -2,40 +2,40 @@
     "exec": [
         {
             "position": "President",
-            "name": "Elissa Weinrick",
-            "email": "eweinric@purdue.edu",
+            "name": "Aidan Doyle",
+            "email": "doyle154@purdue.edu",
             "description": "Presides at all meetings of the chapter, is a member ex officio of all chapter committees, and serves as the designated official representative of the chapter."
         },
         {
             "position": "Vice-President",
-            "name": "William Mattison",
+            "name": "Patton Duvall",
             "description": "Maintains copies of chapter Bylaws and Active Requirements. Assists the President with any miscellaneous tasks. Manages the values chairs and oversees projects and provides assistance as well as serves as a liaison between chairs and exec."
         },
         {
             "position": "Vice-President-of-Membership",
-            "name": "Kayli Kilzer",
+            "name": "Eddie Culbertson",
             "description": "Oversees Growth Chairs and the recruitment process, ensuring there are at least three recruitment events as well as a freshman mixer during band camp. Organizes the interview process and helps chair discussions. Leads membership candidates through the road to wisdom to understand our values and fraternity as a whole."
         },
         {
             "position": "Treasurer",
-            "name": "Scott Gowen",
+            "name": "Aubryn Brown",
             "description": "Creates a chapter budget for the fall and spring semester, keeps a constant communication with the Student Activities and Organizations (SAO) and Business Office for Student Organizations (BOSO), monitors chapter expenses and incomes, and aids the Fundraising Chair(s) with any assistance they may need."
         },
         {
             "position": "Secretary",
-            "name": "Aidan Doyle",
-            "email": "doyle154@purdue.edu",
+            "name": "Alyssa Niuh",
+            "email": "niuha@purdue.edu",
             "description": "Maintains the systems necessary to help the chapter run smoothly. Keeps the google drive organized, creates and maintains agendas for chapter and exec meetings, updates the chapter calendar with KKY events, assists with the tracking of active requirements and chapter attendance, and coordinates the chapter Discord server."
         },
         {
             "position": "Historian",
-            "name": "Riley Stuelpe",
+            "name": "Grant Schnolis",
             "description": "Maintains the files and artifacts of history of the chapter and documenting events and projects created by the chapter."
 
         },
         {
             "position": "Alumni-Secretary",
-            "name": "Ella Vachon",
+            "name": "Zoe Noznesky",
             "description": "Corresponds with alumni through periodic publications, maintains accurate records of alumni members, and assists graduating Brothers on their road to Alumni status."
 
         }
@@ -44,7 +44,7 @@
     "chairs": [
         {
             "position": "Service",
-            "name": ["Aleena Freedman", "Andrew Freuman"],
+            "name": ["Andrew Freuman", "Evan Heath"],
             "description": "Coordinate projects within the chapter and Purdue Bands and Orchestras, such as concert stage crews, cleaning of Hagle Hall, storage upkeep, prop construction for the 'All American' Marching Band, and other miscellaneous projects to improve the experience of all band members."
         },
         {
@@ -54,22 +54,22 @@
         },
         {
             "position": "Music",
-            "name": ["Patton Duvall"],
+            "name": ["Beth Mroz","Oliver Sweatman"],
             "description": "Promotes musicianship of chapter and the department as a whole through organizing extracurricular musical opportunities, ritual bands, and maintenance of the music share project."
         },
         {
             "position": "Traditions",
-            "name": ["Olivia McGary"],
+            "name": ["Jacob Brink"],
             "description": "Maintains ritual equipment and keeps detailed inventory, sands and paints the senior boards for any graduating seniors, and organizes the bandinage."
         },
         {
             "position": "Growth",
-            "name": ["Eddie Culbertson", "Kyle Schwallie"],
+            "name": ["Ava Baker", "Clare Duffy"],
             "description": "Plans all chapter recruitment functions and pre-selections activities, organizes Big Brother selection and program, develops membership activities for active members, and assists VPM with Membership Education Activities as needed."
         },
         {
             "position": "Fundraising",
-            "name": ["Clara Smith"],
+            "name": ["Abby Schneider", "Ren Bethel"],
             "description": "Plans and advises chapter on all fundraising events, organizes the selling of all merchandise and fundraising items, investigates new merchandise, fundraising projects and other ideas as needed, and offers new ideas and events for consideration."
         },
         {
